@@ -1,0 +1,42 @@
+.active{
+    font-weight: bold;
+}
+main img{
+    height: 350px;
+    border: 4px solid  #c04444;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.gallery h2{
+    border-bottom : 2px solid #b0b7bc
+}
+#header_logo{
+    height: 12%;
+    width: 100%;
+}
+#desc{
+    text-align: center;
+}
+@media screen and (min-width:600px) {
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+}
+@media screen and (min-width:900px){
+    .gallery:nth-child(odd){
+        flex-direction: row-reverse;
+}
+}

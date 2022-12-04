@@ -1,0 +1,107 @@
+body,main{
+    background-color: #002244;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.header{
+    height: 80px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+
+}
+.active{
+    font-weight: bold;
+    border: 5px 5px 5px 5px;
+    color:black;
+}
+h1{
+    padding: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+nav li{
+    display:block;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+#front{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#title{
+    text-align: center;
+}
+a:visited{
+    color:white
+}
+.skip-to-content-link {
+    left: 50%;
+    position: absolute;
+    transform: translateY(-31000%);
+}
+.skip-to-content-link:focus {
+    transform: translateY(0%);
+  }
+#ebay{
+    visibility: hidden;
+}
+#ebay_box{
+    visibility: hidden;
+}
+#header_logo{
+    height: 3%;
+    width: 100%;
+}
+footer{
+    background: #c04444;
+    margin: 3px;
+}
+#contact{
+    text-align: left;
+}
+
+  @media screen and (min-width:600px) {
+    #ebay{
+        visibility:visible;
+        width: 600px;
+        height: 700px;
+        display: block;
+        padding-top:45px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin: auto;
+    }
+    #ebay_box{
+        visibility:visible;
+        width: 215px;
+        height: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius:90px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    nav{
+        text-align: center;
+        font-size: 30px;
+    }
+    nav li{
+        display:inline-block;
+        padding-top: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 15;
+    
+    }
+  }
