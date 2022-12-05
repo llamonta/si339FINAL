@@ -37,7 +37,10 @@ nav li{
     text-align: center;
 }
 a:visited{
-    color:white
+    color:white;
+}
+a:link{
+    color:white;
 }
 .skip-to-content-link {
     left: 50%;
@@ -47,14 +50,14 @@ a:visited{
 .skip-to-content-link:focus {
     transform: translateY(0%);
   }
-#ebay, #wn{
+#ebay{
     visibility: hidden;
 }
-#ebay_box, #wn_box{
+.ebay_box{
     visibility: hidden;
 }
 #header_logo{
-    height: 3%;
+    height: 12%;
     width: 100%;
 }
 footer{
@@ -65,8 +68,9 @@ footer{
     text-align: left;
 }
 
+
   @media screen and (min-width:600px) {
-    #ebay, #wn{
+    #ebay{
         visibility:visible;
         width: 600px;
         height: 700px;
@@ -75,15 +79,12 @@ footer{
         width: 50%;
         margin: auto;
     }
-    #ebay_box, #wn_box{
+    .ebay_box{
         visibility:visible;
-        width: 215px;
-        height: 25px;
-        display: block;
+
+
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        border-radius:90px;
         text-align: center;
         font-size: 25px;
         font-weight: bold;

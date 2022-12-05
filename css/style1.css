@@ -10,7 +10,7 @@ h1{
     font-size: 30px;
 
 }
-h4{
+p{
     text-align: center;
 }
 .gallery{
@@ -19,10 +19,6 @@ h4{
     margin: 15px;
     place-items: center;
     grid-template-columns: auto;
-}
-#header_logo{
-    height: 12%;
-    width: 100%;
 }
 .gallery > img {
     object-fit: cover;
