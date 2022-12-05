@@ -78,6 +78,10 @@ footer{
     width: 50%;
     margin: auto;
 }
+.contact1{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
 
 
   @media screen and (min-width:600px) {
