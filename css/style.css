@@ -1,3 +1,7 @@
+a{
+    color: white;
+    text-decoration: underline;
+}
 body,main{
     background-color: #002244;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,11 +13,7 @@ body,main{
     color: white;
 
 }
-.active{
-    font-weight: bold;
-    border: 5px 5px 5px 5px;
-    color:#c04444;
-}
+
 h1{
     padding: 35px;
     text-align: center;
@@ -36,14 +36,13 @@ nav li{
 #title{
     text-align: center;
 }
-a:visited{
-    color:white;
-    font-style: inherit;
-}
-a:active , .active{
+
+a#active{
     font-weight: bold;
     border: 5px 5px 5px 5px;
     color:#c04444;
+    text-decoration: none;
+    font-style: oblique;
 }
 .skip-to-content-link {
     left: 50%;
@@ -69,6 +68,15 @@ footer{
 }
 #contact{
     text-align: left;
+}
+.video{
+    visibility:visible;
+    width: 600px;
+    height: 700px;
+    display: block;
+    padding-top:45px;
+    width: 50%;
+    margin: auto;
 }
 
 
