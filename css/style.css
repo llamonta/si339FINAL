@@ -52,11 +52,14 @@ a#active{
 .skip-to-content-link:focus {
     transform: translateY(0%);
   }
-#ebay{
-    visibility: hidden;
-}
-.ebay_box{
-    visibility: hidden;
+  .ebay_box{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 #header_logo{
     height: 12%;
@@ -85,27 +88,7 @@ footer{
 
 
   @media screen and (min-width:600px) {
-    #ebay{
-        visibility:visible;
-        width: 600px;
-        height: 700px;
-        display: block;
-        padding-top:45px;
-        width: 50%;
-        margin: auto;
-    }
-    .ebay_box{
-        visibility:visible;
 
-
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        font-size: 25px;
-        font-weight: bold;
-        margin-top: 50px;
-        margin-bottom: 15px;
-    }
     nav{
         text-align: center;
         font-size: 30px;
