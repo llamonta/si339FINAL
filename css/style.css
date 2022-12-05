@@ -47,10 +47,10 @@ a:visited{
 .skip-to-content-link:focus {
     transform: translateY(0%);
   }
-#ebay{
+#ebay, #wn{
     visibility: hidden;
 }
-#ebay_box{
+#ebay_box, #wn_box{
     visibility: hidden;
 }
 #header_logo{
@@ -66,18 +66,16 @@ footer{
 }
 
   @media screen and (min-width:600px) {
-    #ebay{
+    #ebay, #wn{
         visibility:visible;
         width: 600px;
         height: 700px;
         display: block;
         padding-top:45px;
-        margin-left: auto;
-        margin-right: auto;
         width: 50%;
         margin: auto;
     }
-    #ebay_box{
+    #ebay_box, #wn_box{
         visibility:visible;
         width: 215px;
         height: 25px;
